@@ -1,0 +1,114 @@
+body{
+    background: #E3F6F5;
+}
+
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: 100em;
+    height: 15em;
+}
+
+.d-none {
+    display: none;
+  }
+
+.inputRelative {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    height: 27rem;
+  }
+  
+  .cldRangeInput {
+    padding: 3px 20px 3px 10px !important;
+  }
+  
+  .cldInput,
+  .cldRangeInput {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #969696;
+    border-radius: 3px;
+    outline: none;
+    color: transparent;
+    text-shadow: 0 0 0 #545454;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 3px 2px 3px 4px;
+  }
+  
+  .imgRangeAbsolute {
+    position: absolute;
+    top: 5.5px;
+    right: -27px;
+    width: 20px;
+    cursor: pointer;
+  }
+  
+  .imgRangeRelative {
+    position: relative;
+    right: 15px;
+  }
+  
+  .cldAbsolute {
+    position: absolute;
+    top: 75px;
+    filter: drop-shadow(0px 0px 3px #607d8b);
+  }
+  
+  .cldAbsolute:after {
+    content: " ";
+    position: absolute;
+    margin-left: -8px;
+    bottom: 100%;
+    left: 50%;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid white;
+  }
+  
+  .imgRelative {
+    position: relative;
+  }
+  
+  .imgAbsolute {
+    position: absolute;
+    top: 5.5px;
+    right: -3px;
+    width: 20px;
+    cursor: pointer;
+  }
+  
+  .rsd_container .cld_container {
+    box-shadow: none;
+    width: 15em;
+    min-width: 15em;
+    padding: 2px;
+  }
+  
+  .rsd_container .cld_btnAlign {
+    padding: 5px 0 0 0;
+  }
+  
+  .rsd_container .cld_btnAlign button {
+    box-shadow: none;
+    background-color: transparent;
+  }
+  
+  .rsd_container th,
+  .rsd_container td {
+    font-size: 12px;
+    padding: 7px 0;
+  }
+  

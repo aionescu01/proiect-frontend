@@ -1,0 +1,24 @@
+ .login {
+        width: 20%;
+        padding: 2%;
+        overflow: hidden;
+        background-color:#212529;
+        border-radius: 10px;
+        box-shadow: 5px 10px 10px #00000095;
+        margin: 20px;
+}
+
+.scrislogin{
+    color: white;
+    font-size: large;
+}
+
+.field{
+    margin: 10px;
+}
+
+.scriere{
+    background-color: #E3F6F5;
+    border: 1px;
+    border-radius: 5px;
+}
