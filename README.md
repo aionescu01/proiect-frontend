@@ -1,4 +1,5 @@
-# proiect-frontend-341
+# proiect-frontend-341 
+# Ionescu Alexandru, grupa 341
  
 ## Link Demo: https://youtu.be/O4kDUv4TLno
 
